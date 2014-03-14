@@ -1,0 +1,46 @@
+<Level>
+    <Shape Type="Capsule">
+        <localPos0>
+            <x>-18.837</x>
+            <y>11.9119</y>
+        </localPos0>
+        <localPos1>
+            <x>-11.2307</x>
+            <y>16.1166</y>
+        </localPos1>
+        <radius>0.2</radius>
+    </Shape>
+    <Shape Type="Capsule">
+        <localPos0>
+            <x>-14.3747</x>
+            <y>13.9671</y>
+        </localPos0>
+        <localPos1>
+            <x>-9.53219</x>
+            <y>14.571</y>
+        </localPos1>
+        <radius>0.2</radius>
+    </Shape>
+    <Shape Type="Capsule">
+        <localPos0>
+            <x>-11.1621</x>
+            <y>10.8155</y>
+        </localPos0>
+        <localPos1>
+            <x>-6.69755</x>
+            <y>15.847</y>
+        </localPos1>
+        <radius>0.2</radius>
+    </Shape>
+    <Shape Type="Capsule">
+        <localPos0>
+            <x>-7.14637</x>
+            <y>14.9966</y>
+        </localPos0>
+        <localPos1>
+            <x>-18.981</x>
+            <y>10.2722</y>
+        </localPos1>
+        <radius>0.2</radius>
+    </Shape>
+</Level>

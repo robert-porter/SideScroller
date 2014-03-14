@@ -1,0 +1,71 @@
+﻿Build started 12/30/2012 5:37:16 PM.
+     1>Project "C:\Users\rayond\Desktop\Spywarez\OpenGLApp\OpenGLApp\OpenGLApp.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\rayond\Desktop\Spywarez\OpenGLApp\Release\OpenGLApp.exe" /INCREMENTAL:NO /NOLOGO glui.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\rayond\Desktop\Spywarez\OpenGLApp\Release\OpenGLApp.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\rayond\Desktop\Spywarez\OpenGLApp\Release\OpenGLApp.lib" /MACHINE:X86 /SAFESEH Release\Body.obj
+         Release\Capsule.obj
+         Release\Circle.obj
+         Release\Collision.obj
+         Release\Contact.obj
+         Release\Editor.obj
+         Release\Fixture.obj
+         Release\globals.obj
+         Release\PhysicsWorld.obj
+         Release\Renderer.obj
+         Release\FMPLoader.obj
+         Release\Render.obj
+         Release\Shape.obj
+         Release\TileMap.obj
+         Release\Entity.obj
+         Release\main.obj
+         Release\TinyXML2.obj
+         Release\World.obj
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutInitWindowPosition
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutInitWindowSize
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutInitDisplayMode
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutCreateSubWindow
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutDestroyWindow
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutSetWindow
+     1>glui.lib(glui_control.obj) : error LNK2001: unresolved external symbol _glutSetWindow
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutGetWindow
+     1>glui.lib(glui_control.obj) : error LNK2001: unresolved external symbol _glutGetWindow
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutReshapeWindow
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutPositionWindow
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutShowWindow
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutHideWindow
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutPostRedisplay
+     1>glui.lib(glui_control.obj) : error LNK2001: unresolved external symbol _glutPostRedisplay
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutSwapBuffers
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutSetCursor
+     1>glui.lib(glui_edittext.obj) : error LNK2001: unresolved external symbol _glutSetCursor
+     1>glui.lib(glui_spinner.obj) : error LNK2001: unresolved external symbol _glutSetCursor
+     1>glui.lib(glui_translation.obj) : error LNK2001: unresolved external symbol _glutSetCursor
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutIdleFunc
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutKeyboardFunc
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutSpecialFunc
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutReshapeFunc
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutVisibilityFunc
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutDisplayFunc
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutMouseFunc
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutMotionFunc
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutPassiveMotionFunc
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutEntryFunc
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutGet
+     1>glui.lib(glui_mouse_iaction.obj) : error LNK2001: unresolved external symbol _glutGet
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutGetModifiers
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutBitmapCharacter
+     1>glui.lib(glui_control.obj) : error LNK2001: unresolved external symbol _glutBitmapCharacter
+     1>glui.lib(glui_edittext.obj) : error LNK2001: unresolved external symbol _glutBitmapCharacter
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol _glutBitmapWidth
+     1>glui.lib(glui_control.obj) : error LNK2001: unresolved external symbol _glutBitmapWidth
+     1>glui.lib(glui.obj) : error LNK2001: unresolved external symbol ___glutCreateWindowWithExit
+     1>glui.lib(glui_listbox.obj) : error LNK2001: unresolved external symbol _glutDestroyMenu
+     1>glui.lib(glui_listbox.obj) : error LNK2001: unresolved external symbol _glutAddMenuEntry
+     1>glui.lib(glui_listbox.obj) : error LNK2001: unresolved external symbol _glutAttachMenu
+     1>glui.lib(glui_listbox.obj) : error LNK2001: unresolved external symbol _glutDetachMenu
+     1>glui.lib(glui_listbox.obj) : error LNK2001: unresolved external symbol ___glutCreateMenuWithExit
+     1>C:\Users\rayond\Desktop\Spywarez\OpenGLApp\Release\OpenGLApp.exe : fatal error LNK1120: 34 unresolved externals
+     1>Done Building Project "C:\Users\rayond\Desktop\Spywarez\OpenGLApp\OpenGLApp\OpenGLApp.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.32

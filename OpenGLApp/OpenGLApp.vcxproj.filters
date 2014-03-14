@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TileMap">
+      <UniqueIdentifier>{7bead087-79f8-426f-9867-0e936b88dbc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape">
+      <UniqueIdentifier>{9874b92d-f50a-4d3a-80f3-b250181d969b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamics">
+      <UniqueIdentifier>{d8cb97e1-8df7-4aff-aad9-d7394c5a0944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{1b432a45-76ea-4c9b-89ee-6bed84e8d95d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{79258bbf-9be2-4853-8930-250ef3ec3ea0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FMPLoader.h">
+      <Filter>TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="World.h" />
+    <ClInclude Include="Shape.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Capsule.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="ContactFilter.h">
+      <Filter>Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="Fixture.h">
+      <Filter>Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsWorld.h">
+      <Filter>Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="Body.h">
+      <Filter>Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="Contact.h">
+      <Filter>Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtils.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor.h" />
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="TinyXML2.h" />
+    <ClInclude Include="AABox.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerControls.h" />
+    <ClInclude Include="CapsuleLoader.h" />
+    <ClInclude Include="TimeStep.h" />
+    <ClInclude Include="CreateEntity.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="TuningParams.h">
+      <Filter>Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="Jacobson.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FMPLoader.cpp">
+      <Filter>TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="World.cpp" />
+    <ClCompile Include="Shape.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Capsule.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Fixture.cpp">
+      <Filter>Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsWorld.cpp">
+      <Filter>Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="Body.cpp">
+      <Filter>Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="Contact.cpp">
+      <Filter>Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor.cpp" />
+    <ClCompile Include="globals.cpp" />
+    <ClCompile Include="TinyXML2.cpp" />
+    <ClCompile Include="AABox.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerControls.cpp" />
+    <ClCompile Include="CapsuleLoader.cpp" />
+    <ClCompile Include="CreateEntity.cpp" />
+    <ClCompile Include="Timer.cpp" />
+  </ItemGroup>
+</Project>

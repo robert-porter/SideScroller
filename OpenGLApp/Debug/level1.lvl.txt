@@ -1,0 +1,5 @@
+<Capsule>
+<localPos0 x=0,y=0></localPos0>
+<localPos1 x=20, y=0></localPos1>
+<radius r=0.2></radius>
+</Capsule>
